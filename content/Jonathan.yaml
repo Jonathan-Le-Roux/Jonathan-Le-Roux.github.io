@@ -1,0 +1,37 @@
+# ============================================================
+# content/example_student.yaml
+# ============================================================
+# This is an example student profile. Copy this file to
+# something like content/my_profile.yaml, fill in your own
+# information, and update portfolio_config.yaml to point to it.
+# ============================================================
+
+name: "Jonathan Le Roux"
+tagline: "Student | Resourceful | Dedicated "
+
+about: |
+  I am completing my Bachelor of Science in Data science achieving a 3.88 GPA 
+  while completing an honors-level curriculum in Mathematics, Statistics and 
+  Data Science. I have taken upper-level classes in AI, Big Data Analysis, 
+  Bayesian Statistical Methods, and Database systems while consistently being 
+  in the highest scoring cohort. While completing my degree I have also earned
+  Dean’s list recognition in all but one semester. On the side, I also completed
+  courses on Coursera for data analytics through Google and Data Science through
+  IBM.
+
+  My most significant accomplishment is my research role at the Facility for 
+  Rare Isotope Beams (FRIB) where I am tasked with applying Markov-Chain Monte 
+  Carlo simulations to analyze more than 60TB of data. Our team are likely to 
+  publish within the next year.
+  Currently I am leading a small team working for an AI company focused on 
+  finding customer pain points through textual data, by using natural language 
+  processing.
+
+  I have taken an all-inclusive approach to learning data science, and I have a 
+  special interest in bringing data-driven insights to business. 
+
+
+# Contact information — remove any fields you prefer not to share
+email: "lejonath@msu.edu"
+linkedin: "https://www.linkedin.com/in/jonathan-le-roux-38475828b/"
+github: "https://github.com/Jonathan-Le-Roux"
