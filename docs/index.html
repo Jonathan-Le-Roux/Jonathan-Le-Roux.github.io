@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonathan Le Roux | Data Science Portfolio</title>
+
+  <!-- Base styles always loaded -->
+  <link rel="stylesheet" href="css/base.css" />
+
+  <!-- Theme stylesheet — controlled by `theme` in portfolio_config.yaml -->
+  <link rel="stylesheet" href="css/themes/UoA.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-name">Jonathan Le Roux</div>
+      <div class="header-tagline">Student | Resourceful | Dedicated </div>
+    </div>
+
+    <!-- Navigation bar -->
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== Main content (filled in by child templates) ===== -->
+  <main class="site-main">
+    
+
+<!-- ===== About section ===== -->
+<section id="about" class="section about-section">
+  <h2>About Me</h2>
+  <div class="about-text"><p>I am a South African-born Master's student in Data Science at the University 
+of Arizona. I am driven by a passion for problem-solving, business, and 
+understanding how the world works. These interests have led me to pursue data 
+science as a way to uncover meaningful insights and better understand the 
+truths hidden within complex systems.</p>
+<p>I have completed my Bachelor of Science in Data science at Michigan State University 
+achieving a 3.88 GPA while completing an honors-level curriculum in Mathematics, 
+Statistics and Data Science. I have taken upper-level classes in AI, Big Data Analysis, 
+Bayesian Statistical Methods, and Database systems while consistently being 
+in the highest scoring cohort. While completing my degree I have also earned
+Dean’s list recognition in all but one semester. On the side, I also completed
+courses on Coursera for data analytics through Google and Data Science through
+IBM.</p>
+<p>My most significant accomplishment is my research role at the Facility for 
+Rare Isotope Beams (FRIB) where I am tasked with applying Markov-Chain Monte 
+Carlo simulations to analyze more than 60TB of data. Our team are likely to 
+publish within the next year.</p>
+<p>Recently I have been leading a small team working for an AI company focused on 
+creating a subject agnostic tool that is able to find pain points of people in a 
+specific subject so that start-up businesses can figure out a problem to solve</p>
+<p>I have taken an all-inclusive approach to learning data science, and I have a 
+special interest in bringing data-driven insights to business. </p></div>
+</section>
+
+<!-- ===== Projects section ===== -->
+<section id="projects" class="section projects-section">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/AI_impact_project.png"
+          alt="Thumbnail for AI Impact on Students&#39; Success"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">AI Impact on Students&#39; Success</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">This project analyzes how AI tools affect student academic performance using a dataset of 400 students. It explores whether factors like AI tool choice, daily usage time, purpose, age, and satisfaction level are related to grade outcomes.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">Pandas &amp; NumPy</span>
+          
+          <span class="tech-badge">Ecoders and Scalers</span>
+          
+          <span class="tech-badge">Scikit-learn (Logistic Regression, Random Forest)</span>
+          
+          <span class="tech-badge">Matplotlib / Seaborn</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>As students increasingly use tools like ChatGPT, Gemini, Copilot, Grammarly,  and Notion AI, it is important to understand whether AI helps or hurts  academic performance. The project investigates whether AI usage patterns can  explain or predict whether a student’s grades improve, slightly decline, or  stay the same.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>I performed exploratory data analysis to understand student demographics, AI  tool usage, daily usage hours, purposes for using AI, and reported grade impact.  Then I preprocessed the data by encoding categorical variables, scaling  numeric features, splitting the data into training and testing sets, and  testing classification models including logistic regression and a random  forest classifier.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>The logistic regression model achieved about 30% accuracy, which suggests the  available features were not strong predictors of grade impact. The random  forest model showed that daily usage hours, age, and satisfaction level were the most important features, but their importance scores were still relatively low, indicating that the dataset may not contain enough information to  reliably predict how AI affects student grades.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/Jonathan-Le-Roux/AI_impact_on_students" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          <a href="https://github.com/Jonathan-Le-Roux/AI_impact_on_students/blob/main/notebooks/analysis.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+
+    </article>
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/movie_recommender_project.png"
+          alt="Thumbnail for Movie Recommendation System"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">Movie Recommendation System</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">This project builds a personalized movie recommender system using the MovieLens  ml-32m dataset. It uses movie ratings, genres, release year, and Bayesian averages  to recommend similar movies with a KNN-based model.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">Pandas &amp; NumPy</span>
+          
+          <span class="tech-badge">Scikit-learn (KNN)</span>
+          
+          <span class="tech-badge">Matplotlib / Seaborn</span>
+          
+          <span class="tech-badge">MovieLens Dataset</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>With thousands of movies available, users need a way to discover films that match  their preferences. The challenge is to create recommendations that are useful,  personalized, and based on meaningful similarity rather than just popularity  or average rating.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>I explored and cleaned the MovieLens data, analyzed rating patterns, genre  distributions, and popularity trends, then created Bayesian average ratings  to reduce the impact of movies with very few ratings. I transformed movie  genres into numeric features, scaled the data, and used a KNN model to find the five most similar movies to a given title.
+ 
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>The model was able to recommend movies with similar genre and rating patterns, such as recommending animated adventure films for Toy Story. However, some  recommendations had weak genre overlap, showing that future improvements  could include features like actors, directors, plot descriptions, or user  demographics to improve recommendation quality.
+ 
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/Jonathan-Le-Roux/MovieRecommender" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          <a href="https://github.com/Jonathan-Le-Roux/MovieRecommender/blob/main/src/Analysis.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+
+    </article>
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/AWS_nyc311_project.png"
+          alt="Thumbnail for NYC 311 Complaint Resolution Time Prediction with AWS"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">NYC 311 Complaint Resolution Time Prediction with AWS</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">This project uses AWS cloud tools to analyze and model New York City 311  service request data. It focuses on predicting complaint resolution time based  on request characteristics using scalable data processing and machine learning  techniques.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">AWS S3</span>
+          
+          <span class="tech-badge">AWS Athena (SQL)</span>
+          
+          <span class="tech-badge">AWS Sagemaker AI</span>
+          
+          <span class="tech-badge">scikit-learn</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>City governments collect massive amounts of service request data, but  extracting meaningful insights from it can be difficult due to its size and  complexity. The goal of this project is to efficiently process and analyze  NYC 311 data to predict how long it would take for a complaint to be resolved based on various features.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>I stored and queried the NYC 311 dataset using AWS services such as S3 and  Athena to handle large-scale data efficiently. After cleaning and transforming  the data, I engineered features such as complaint type, location, and  time-based variables, then built and evaluated predictive models to estimate  resolution time.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>The models were able to capture patterns between complaint characteristics and resolution time, showing that factors like complaint type, agency and location  significantly influence how quickly issues are resolved. While predictions  were not perfectly precise, the results demonstrate that cloud-based data  pipelines combined with machine learning can provide useful estimates to  support operational planning and resource allocation.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/Jonathan-Le-Roux/aws-nyc311-lejonath" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          <a href="https://github.com/Jonathan-Le-Roux/aws-nyc311-lejonath/blob/main/notebooks/modeling_train_and_eval.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+
+    </article>
+    
+  </div>
+</section>
+
+<!-- ===== Contact section ===== -->
+<section id="contact" class="section contact-section">
+  <h2>Contact</h2>
+  <ul class="contact-list">
+    
+    <li>
+      <span class="contact-label">Email:</span>
+      <a href="mailto:lejonath@arizona.edu">lejonath@arizona.edu</a>
+    </li>
+    
+    
+    <li>
+      <span class="contact-label">LinkedIn:</span>
+      <a href="https://www.linkedin.com/in/jonathan-le-roux-38475828b/" target="_blank" rel="noopener">https://www.linkedin.com/in/jonathan-le-roux-38475828b/</a>
+    </li>
+    
+    
+    <li>
+      <span class="contact-label">GitHub:</span>
+      <a href="https://github.com/Jonathan-Le-Roux" target="_blank" rel="noopener">https://github.com/Jonathan-Le-Roux</a>
+    </li>
+    
+  </ul>
+</section>
+
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <p>Built with the Data Science Portfolio Template &mdash; powered by Python &amp; Jinja2.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+/* ============================================================
+   
+   Set  theme in  solarized  in portfolio_config.yaml.
+   
+   ============================================================ */
+
+body {
+  background-color: #E2E9EB;        
+  color: #121212;
+}
+
+a {
+  color: #79b8ff;
+}
+
+/* Header */
+.site-header {
+  background-color: #0C234B;
+  border-bottom: 10px solid #AB0520;
+}
+
+.header-name {
+  color: #f0f0f0;
+}
+
+.header-tagline {
+  color: #f0f0f0;
+}
+
+.site-nav a {
+  color: #f0f0f0;
+}
+
+.site-nav a:hover {
+  color: #AB0520;
+}
+
+/* Section headings */
+.section h2 {
+  color: #0C234B;
+  border-color: #AB0520;
+}
+
+/* Project card */
+.project-card {
+    background-color: #ffffff;
+    border: 1px solid #c8dbd8;
+}
+
+.project-title {
+  color: #121212;
+}
+
+.project-summary {
+  color: #121212;
+}
+
+/* Tech badges */
+.tech-badge {
+    background-color: #93c5ff;
+    color: #00409b;
+}
+
+/* Details */
+.project-details {
+  color: #121212;
+}
+
+.detail-block h4 {
+  color: #121212;
+}
+
+/* Buttons */
+.btn-repo {
+  background-color: #AB0520;
+  color: #ffffff;
+}
+
+.btn-notebook {
+  background-color: #0C234B;
+  color: #e0e0e0;
+}
+
+/* Contact */
+.contact-list a {
+  color: #AB0520;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #0C234B;
+  border-top: 1px solid #0C234B;
+  color: #f0f0f0;
+}
