@@ -14,8 +14,9 @@ student_file: content/Jonathan.yaml
 # List the YAML files (inside content/projects/) you want shown.
 # Remove example projects and add your own once you're ready.
 projects:
-  - content/projects/example_project_1.yaml
-  - content/projects/example_project_2.yaml
+  - content/projects/AI_impact_project.yaml
+  - content/projects/Movie_recommender_project.yaml
+  - content/projects/AWS_nyc311_project.yaml
 
 # --- Theme ---
 # Built-in options: "light", "dark", "msu-light", "msu-dark"

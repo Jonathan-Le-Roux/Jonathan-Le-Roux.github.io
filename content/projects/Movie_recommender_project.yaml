@@ -1,0 +1,46 @@
+# ============================================================
+# content/projects/example_project_1.yaml
+# ============================================================
+# Example project: Predicting the Best Nap Spots on Campus
+# Copy this file to create your own project entries.
+# ============================================================
+
+title: "Movie Recommendation System"
+
+short_summary: >
+  This project builds a personalized movie recommender system using the MovieLens 
+  ml-32m dataset. It uses movie ratings, genres, release year, and Bayesian averages 
+  to recommend similar movies with a KNN-based model.
+
+tech_stack:
+  - Python
+  - Pandas & NumPy
+  - Scikit-learn (KNN)
+  - Matplotlib / Seaborn
+  - MovieLens Dataset
+
+problem_statement: >
+ With thousands of movies available, users need a way to discover films that match 
+ their preferences. The challenge is to create recommendations that are useful, 
+ personalized, and based on meaningful similarity rather than just popularity 
+ or average rating.
+
+approach: >
+ I explored and cleaned the MovieLens data, analyzed rating patterns, genre 
+ distributions, and popularity trends, then created Bayesian average ratings 
+ to reduce the impact of movies with very few ratings. I transformed movie 
+ genres into numeric features, scaled the data, and used a KNN model to find the
+ five most similar movies to a given title.
+  
+
+results_impact: >
+ The model was able to recommend movies with similar genre and rating patterns,
+ such as recommending animated adventure films for Toy Story. However, some 
+ recommendations had weak genre overlap, showing that future improvements 
+ could include features like actors, directors, plot descriptions, or user 
+ demographics to improve recommendation quality.
+  
+
+repo_url: "https://github.com/Jonathan-Le-Roux/MovieRecommender"
+notebook_url: "https://github.com/Jonathan-Le-Roux/MovieRecommender/blob/main/src/Analysis.ipynb"
+image_path: "img/movie_recommender_project.png"

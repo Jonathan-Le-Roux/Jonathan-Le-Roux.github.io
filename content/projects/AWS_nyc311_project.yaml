@@ -1,0 +1,47 @@
+# ============================================================
+# content/projects/example_project_1.yaml
+# ============================================================
+# Example project: Predicting the Best Nap Spots on Campus
+# Copy this file to create your own project entries.
+# ============================================================
+
+title: "NYC 311 Complaint Resolution Time Prediction with AWS"
+
+short_summary: >
+  This project uses AWS cloud tools to analyze and model New York City 311 
+  service request data. It focuses on predicting complaint resolution time based 
+  on request characteristics using scalable data processing and machine learning 
+  techniques.
+
+tech_stack:
+  - Python
+  - AWS S3
+  - AWS Athena (SQL)
+  - AWS Sagemaker AI
+  - scikit-learn
+
+problem_statement: >
+  City governments collect massive amounts of service request data, but 
+  extracting meaningful insights from it can be difficult due to its size and 
+  complexity. The goal of this project is to efficiently process and analyze 
+  NYC 311 data to predict how long it would take for a complaint to be resolved
+  based on various features.
+
+approach: >
+  I stored and queried the NYC 311 dataset using AWS services such as S3 and 
+  Athena to handle large-scale data efficiently. After cleaning and transforming 
+  the data, I engineered features such as complaint type, location, and 
+  time-based variables, then built and evaluated predictive models to estimate 
+  resolution time.
+
+results_impact: >
+  The models were able to capture patterns between complaint characteristics and
+  resolution time, showing that factors like complaint type, agency and location 
+  significantly influence how quickly issues are resolved. While predictions 
+  were not perfectly precise, the results demonstrate that cloud-based data 
+  pipelines combined with machine learning can provide useful estimates to 
+  support operational planning and resource allocation.
+
+repo_url: "https://github.com/Jonathan-Le-Roux/aws-nyc311-lejonath"
+notebook_url: "https://github.com/Jonathan-Le-Roux/aws-nyc311-lejonath/blob/main/notebooks/modeling_train_and_eval.ipynb"
+image_path: "img/AWS_nyc311_project.png"
